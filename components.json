@@ -1,0 +1,90 @@
+{
+  "templateId": "glitter-editorial",
+  "version": "0.1.0-beta.24",
+  "components": {
+    "basic": [
+      { "name": "A", "type": "basic", "description": "Accessible anchor", "path": "src/index.tsx", "props": { "href": { "type": "string", "required": false }, "text": { "type": "string", "required": false }, "className": { "type": "string", "required": false } } },
+      { "name": "Div", "type": "basic", "description": "Division", "path": "src/index.tsx", "props": { "className": { "type": "string", "required": false } } },
+      { "name": "Footer", "type": "basic", "description": "Footer landmark", "path": "src/index.tsx", "props": { "className": { "type": "string", "required": false } } },
+      { "name": "H1", "type": "basic", "description": "Level one heading", "path": "src/index.tsx", "props": { "text": { "type": "string", "required": false }, "className": { "type": "string", "required": false } } },
+      { "name": "H2", "type": "basic", "description": "Level two heading", "path": "src/index.tsx", "props": { "text": { "type": "string", "required": false }, "className": { "type": "string", "required": false } } },
+      { "name": "Header", "type": "basic", "description": "Header landmark", "path": "src/index.tsx", "props": { "className": { "type": "string", "required": false } } },
+      { "name": "Img", "type": "basic", "description": "Accessible image", "path": "src/index.tsx", "props": { "src": { "type": "string", "required": true }, "alt": { "type": "string", "required": false }, "className": { "type": "string", "required": false } } },
+      { "name": "Nav", "type": "basic", "description": "Navigation landmark", "path": "src/index.tsx", "props": { "className": { "type": "string", "required": false }, "ariaLabel": { "type": "string", "required": false } } },
+      { "name": "P", "type": "basic", "description": "Paragraph", "path": "src/index.tsx", "props": { "text": { "type": "string", "required": false }, "className": { "type": "string", "required": false } } },
+      { "name": "Section", "type": "basic", "description": "Section", "path": "src/index.tsx", "props": { "className": { "type": "string", "required": false } } },
+      { "name": "Span", "type": "basic", "description": "Inline text", "path": "src/index.tsx", "props": { "text": { "type": "string", "required": false }, "className": { "type": "string", "required": false } } }
+    ],
+    "composite": [
+      {
+        "name": "EditorialArchive",
+        "type": "composite",
+        "description": "URL-driven paginated Editorial archive using the selected board contract",
+        "path": "src/index.tsx",
+        "props": {
+          "labelText": { "type": "string", "required": false },
+          "titleText": { "type": "string", "required": false },
+          "allText": { "type": "string", "required": false },
+          "sectionsLabelText": { "type": "string", "required": false },
+          "previousText": { "type": "string", "required": false },
+          "nextText": { "type": "string", "required": false },
+          "paginationLabelText": { "type": "string", "required": false },
+          "emptyTitleText": { "type": "string", "required": false },
+          "emptyBodyText": { "type": "string", "required": false },
+          "searchLabelText": { "type": "string", "required": false },
+          "searchSubmitText": { "type": "string", "required": false },
+          "searchResultsPrefixText": { "type": "string", "required": false },
+          "searchResultsSuffixText": { "type": "string", "required": false },
+          "searchEmptyTitleText": { "type": "string", "required": false },
+          "searchEmptyBodyText": { "type": "string", "required": false },
+          "pageSize": { "type": "number", "required": false, "default": 10 },
+          "className": { "type": "string", "required": false }
+        }
+      },
+      {
+        "name": "EditorialFeed",
+        "type": "composite",
+        "description": "Fail-closed editorial board resolver and post feed",
+        "path": "src/index.tsx",
+        "props": {
+          "labelText": { "type": "string", "required": false },
+          "titleText": { "type": "string", "required": false },
+          "featuredLabelText": { "type": "string", "required": false },
+          "readText": { "type": "string", "required": false },
+          "allStoriesText": { "type": "string", "required": false },
+          "emptyTitleText": { "type": "string", "required": false },
+          "emptyBodyText": { "type": "string", "required": false },
+          "sectionDiscoveryLabelText": { "type": "string", "required": false },
+          "sectionDiscoveryTitleText": { "type": "string", "required": false },
+          "sectionDiscoveryNavLabelText": { "type": "string", "required": false },
+          "pageSize": { "type": "number", "required": false, "default": 5 },
+          "variant": { "type": "string", "required": false, "default": "home" },
+          "className": { "type": "string", "required": false }
+        }
+      },
+      {
+        "name": "EditorialArticle",
+        "type": "composite",
+        "description": "Fail-closed selected-board editorial article presentation",
+        "path": "src/index.tsx",
+        "props": {
+          "articleId": { "type": "string", "required": true },
+          "loadingText": { "type": "string", "required": false },
+          "invalidTitleText": { "type": "string", "required": false },
+          "invalidBodyText": { "type": "string", "required": false },
+          "unavailableTitleText": { "type": "string", "required": false },
+          "unavailableBodyText": { "type": "string", "required": false },
+          "forbiddenTitleText": { "type": "string", "required": false },
+          "forbiddenBodyText": { "type": "string", "required": false },
+          "notFoundTitleText": { "type": "string", "required": false },
+          "notFoundBodyText": { "type": "string", "required": false },
+          "backText": { "type": "string", "required": false },
+          "previousText": { "type": "string", "required": false },
+          "nextText": { "type": "string", "required": false },
+          "className": { "type": "string", "required": false }
+        }
+      }
+    ],
+    "layout": []
+  }
+}

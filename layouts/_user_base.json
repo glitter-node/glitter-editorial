@@ -1,0 +1,35 @@
+{
+  "version": "0.1.0-beta.24", "layout_name": "_user_base", "permissions": [],
+  "meta": { "seo": { "enabled": false } },
+  "components": [{
+    "id": "editorial_shell", "type": "basic", "name": "Div", "props": { "className": "editorial-shell" }, "children": [
+      { "id": "site_header", "type": "basic", "name": "Header", "props": { "className": "site-header" }, "children": [
+        { "type": "basic", "name": "Div", "props": { "className": "shell-width masthead" }, "children": [
+          { "type": "basic", "name": "A", "props": { "href": "/", "text": "$t:common.brand", "className": "brand" } },
+          { "type": "basic", "name": "Nav", "props": { "className": "primary-nav", "ariaLabel": "$t:nav.label" }, "children": [
+            { "type": "basic", "name": "A", "props": { "href": "/", "text": "$t:nav.home", "className": "nav-link" } },
+            { "type": "basic", "name": "A", "props": { "href": "/articles", "text": "$t:nav.articles", "className": "nav-link" } },
+            { "type": "basic", "name": "A", "props": { "href": "/about", "text": "$t:nav.about", "className": "nav-link" } }
+          ] }
+        ] }
+      ] },
+      { "id": "main_content", "type": "basic", "name": "Div", "slot": "content", "props": { "className": "main-content" }, "children": [] },
+      { "id": "site_footer", "type": "basic", "name": "Footer", "props": { "className": "site-footer" }, "children": [
+        { "type": "basic", "name": "Div", "props": { "className": "shell-width footer-grid" }, "children": [
+          { "type": "basic", "name": "Div", "children": [
+            { "type": "basic", "name": "P", "props": { "text": "$t:common.brand", "className": "footer-brand" } },
+            { "type": "basic", "name": "P", "props": { "text": "$t:footer.statement", "className": "footer-statement" } }
+          ] },
+          { "type": "basic", "name": "Div", "props": { "className": "footer-meta" }, "children": [
+            { "type": "basic", "name": "Nav", "props": { "className": "footer-nav", "ariaLabel": "$t:footer.nav_label" }, "children": [
+              { "type": "basic", "name": "A", "props": { "href": "/", "text": "$t:nav.home", "className": "footer-link" } },
+              { "type": "basic", "name": "A", "props": { "href": "/articles", "text": "$t:nav.articles", "className": "footer-link" } },
+              { "type": "basic", "name": "A", "props": { "href": "/about", "text": "$t:nav.about", "className": "footer-link" } }
+            ] },
+            { "type": "basic", "name": "P", "props": { "text": "$t:footer.copyright", "className": "copyright" } }
+          ] }
+        ] }
+      ] }
+    ]
+  }]
+}

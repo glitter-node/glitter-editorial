@@ -1,0 +1,28 @@
+{
+    "meta": {
+        "is_partial": true
+    },
+    "type": "basic",
+    "name": "Section",
+    "props": {
+        "className": "editorial-note"
+    },
+    "children": [
+        {
+            "type": "basic",
+            "name": "P",
+            "props": {
+                "text": "$t:home.closing.label",
+                "className": "section-label"
+            }
+        },
+        {
+            "type": "basic",
+            "name": "H2",
+            "props": {
+                "text": "$t:home.closing.statement",
+                "className": "closing-line"
+            }
+        }
+    ]
+}

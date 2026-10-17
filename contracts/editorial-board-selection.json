@@ -1,0 +1,24 @@
+{
+  "version": "0.1.0-beta.25",
+  "contract": "editorial-board-selection",
+  "provider": "sirsoft-board",
+  "bootstrap_source": "editorial",
+  "candidates": ["editorial", "articles", "stories", "news"],
+  "eligibility": {
+    "exists": true,
+    "is_active": true,
+    "guest_can_read": true
+  },
+  "fallback": null,
+  "allow_arbitrary_board": false,
+  "runtime_mode": "bootstrap-preferred-with-runtime-fallback",
+  "selection_strategy": "compatibility_candidate_priority",
+  "configured_source_supported": true,
+  "post_eligibility": {
+    "status": "published",
+    "is_secret": false,
+    "parent_id": null,
+    "depth": 0,
+    "published_root_notice_allowed": true
+  }
+}

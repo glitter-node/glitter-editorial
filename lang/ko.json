@@ -1,0 +1,105 @@
+{
+  "nav": { "label": "주요 메뉴", "home": "홈", "articles": "기사", "about": "소개" },
+  "common": { "brand": "Glitter Editorial" },
+  "home": {
+    "lead": {
+      "label": "INDEPENDENT EDITORIAL",
+      "title": "읽을 가치가 있는 이야기를 선명하게 전합니다.",
+      "introduction": "독립적인 기사와 에디토리얼 이야기를 차분한 호흡으로 엮어 독자가 이야기의 본질에 오래 머물 수 있는 발행 공간입니다."
+    },
+    "featured": { "label": "FEATURED", "read": "기사 읽기 →" },
+    "latest": { "label": "LATEST STORIES", "title": "새로 도착한 이야기", "all": "모든 기사 보기 →" },
+    "sections": { "label": "SECTION INDEX", "title": "섹션별로 살펴보기", "nav_label": "기사 섹션 탐색" },
+    "principles": {
+      "label": "EDITORIAL PRINCIPLES", "title": "좋은 읽기를 만드는 세 가지 기준",
+      "clarity_title": "Clarity", "clarity_body": "복잡한 주제를 분명한 언어와 정돈된 흐름으로 전합니다.",
+      "context_title": "Context", "context_body": "사건의 앞뒤와 배경을 살펴 지금의 의미를 깊이 이해합니다.",
+      "perspective_title": "Perspective", "perspective_body": "익숙한 장면에도 새로운 질문을 더해 생각의 폭을 넓힙니다."
+    },
+    "popular": { "label": "EDITOR'S SELECTION", "title": "많이 읽힌 이야기" },
+    "scope": {
+      "label": "OUR EDITORIAL SCOPE",
+      "title": "우리가 다루는 이야기",
+      "body": "정성껏 다듬은 기사와 에디토리얼 이야기를 통해 이름이나 형식보다 이야기의 본질에 집중합니다.",
+      "types": "기사 · 에디토리얼 스토리 · 독립 출판"
+    },
+    "empty": {
+      "title": "첫 번째 이야기를 준비하고 있습니다.",
+      "body": "서두르지 않고 충분히 살피며, 오래 읽힐 첫 호의 문장을 고르고 있습니다."
+    },
+    "closing": { "label": "EDITORIAL NOTE", "statement": "좋은 이야기는 읽는 시간을 넘어 생각하는 시간을 남깁니다." }
+  },
+  "about": {
+    "eyebrow": "ABOUT THE PUBLICATION",
+    "title": "이야기가 온전히 읽히는 자리를 만듭니다.",
+    "introduction": "Glitter Editorial은 정보의 속도보다 이해의 깊이를, 장식보다 읽기의 리듬을 우선하는 발행 형식을 표현합니다.",
+    "purpose_title": "Editorial Purpose",
+    "purpose_body": "독자가 제목에서 본문으로, 사실에서 맥락으로 자연스럽게 이동하도록 명확한 정보 위계와 넉넉한 읽기 공간을 제공합니다.",
+    "principles_title": "Our Principles",
+    "principles_body": "분명한 언어, 충분한 맥락, 독립적인 관점을 바탕으로 각 이야기에 알맞은 무게와 호흡을 부여합니다.",
+    "publish_title": "What We Publish",
+    "publish_body": "기사와 에디토리얼 이야기를 하나의 일관된 출판 경험으로 연결합니다.",
+    "closing": "모든 페이지는 콘텐츠보다 앞서지 않으며, 독자의 집중을 오래 지키는 것을 목표로 합니다."
+  },
+  "articles": {
+    "meta_title": "기사 · Glitter Editorial",
+    "meta_description": "Glitter Editorial이 발행한 최신 기사와 이야기를 읽어보세요.",
+    "intro": {
+      "eyebrow": "THE PUBLICATION",
+      "title": "Articles",
+      "description": "취재와 에세이, 깊이 살핀 관점을 한 호흡의 읽기 순서로 엮어 전합니다."
+    },
+    "feed": {
+      "eyebrow": "LATEST PUBLICATION",
+      "title": "발행된 이야기"
+    },
+    "filter": { "label": "기사 섹션", "all": "전체" },
+    "search": { "label": "이야기 검색", "submit": "검색", "results_prefix": "", "results_suffix": " 검색 결과", "empty_title": "검색 조건에 맞는 이야기가 없습니다.", "empty_body": "다른 검색어를 입력하거나 발행된 전체 이야기를 살펴보세요." },
+    "pagination": { "label": "기사 페이지", "previous": "이전", "next": "다음" },
+    "empty": {
+      "title": "아직 발행된 이야기가 없습니다.",
+      "body": "첫 호를 차분히 준비하고 있습니다. 읽을 준비가 된 이야기를 이곳에 전하겠습니다."
+    }
+  },
+  "article": {
+    "meta_title": "기사 · Glitter Editorial",
+    "meta_description": "Glitter Editorial이 발행한 기사를 읽어보세요.",
+    "loading": "이야기를 펼치고 있습니다.",
+    "invalid": {
+      "title": "올바르지 않은 이야기 주소입니다.",
+      "body": "발행 목록으로 돌아가 다른 이야기를 이어서 읽어보세요."
+    },
+    "unavailable": {
+      "title": "지금은 이 이야기를 읽을 수 없습니다.",
+      "body": "현재 발행본에 포함되지 않은 이야기일 수 있습니다. 공개된 다른 이야기는 계속 읽을 수 있습니다."
+    },
+    "forbidden": {
+      "title": "이 이야기에 접근할 수 없습니다.",
+      "body": "현재 공개된 기사가 아니거나 읽기 권한이 없는 이야기입니다."
+    },
+    "not_found": {
+      "title": "이야기를 찾을 수 없습니다.",
+      "body": "주소가 바뀌었거나 더 이상 발행되지 않는 이야기일 수 있습니다."
+    },
+    "back": "기사 목록으로 돌아가기",
+    "previous": "이전 이야기",
+    "next": "다음 이야기"
+  },
+  "errors": {
+    "home_action": "홈으로 돌아가기",
+    "403": { "code": "403", "title": "이 페이지를 열 수 없습니다.", "description": "현재 접근할 수 없는 페이지입니다. 공개된 이야기로 돌아가 계속 읽어보세요." },
+    "404": { "code": "404", "title": "찾으시는 페이지가 없습니다.", "description": "주소가 바뀌었거나 발행이 종료된 페이지일 수 있습니다." },
+    "500": { "code": "500", "title": "페이지를 불러오지 못했습니다.", "description": "잠시 후 다시 시도하거나 홈에서 다른 이야기를 살펴보세요." }
+  },
+  "footer": {
+    "nav_label": "하단 메뉴",
+    "statement": "읽을 가치가 있는 이야기를 위한 독립적인 발행 공간입니다.",
+    "copyright": "© Glitter.kr. All rights reserved."
+  },
+  "meta": {
+    "home_title": "Glitter Editorial",
+    "home_description": "독립적인 기사와 에디토리얼 이야기를 읽기 중심으로 전하는 발행 공간입니다.",
+    "about_title": "소개 · Glitter Editorial",
+    "about_description": "명료함과 맥락, 관점을 바탕으로 이야기가 온전히 읽히는 출판 경험을 제안합니다."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "identifier": "glitter-editorial",
+  "vendor": "Glitter.kr",
+  "name": { "ko": "Glitter Editorial", "en": "Glitter Editorial" },
+  "version": "0.1.0-beta.25",
+  "license": "MIT",
+  "description": {
+    "ko": "독립적인 기사와 에디토리얼 이야기를 읽기 중심으로 구성하는 GnuBoard7 에디토리얼 템플릿",
+    "en": "A reading-first GnuBoard7 template for independent articles and editorial stories."
+  },
+  "type": "user",
+  "locales": ["ko", "en"],
+  "author": { "name": "Glitter.kr", "url": "https://glitter.kr" },
+  "release_date": "2026-08-28",
+  "g7_version": ">=7.0.6",
+  "dependencies": { "modules": { "sirsoft-board": ">=1.0.0" }, "plugins": {} },
+  "assets": {
+    "css": ["dist/css/components.css"],
+    "js": ["dist/js/components.iife.js"],
+    "fonts": [],
+    "images": []
+  },
+  "components": {
+    "basic": ["a", "div", "footer", "h1", "h2", "header", "nav", "p", "section", "span"],
+    "composite": ["editorial-feed"],
+    "layout": []
+  },
+  "error_config": { "layouts": { "403": "errors/403", "404": "errors/404", "500": "errors/500" } },
+  "features": { "dark_mode": false, "responsive": true, "multi_language": true, "multi_currency": false },
+  "editorial": {
+    "content_source": {
+      "provider": "sirsoft-board",
+      "board": "editorial",
+      "contract": "contracts/editorial-board-selection.json"
+    }
+  }
+}

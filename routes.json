@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0-beta.24",
+  "layout_name": "routes",
+  "routes": [
+    { "path": "/", "layout": "home", "auth_required": false, "meta": { "title": "$t:meta.home_title" } },
+    { "path": "/articles", "layout": "articles", "auth_required": false, "meta": { "title": "$t:articles.meta_title" } },
+    { "path": "/articles/:id", "layout": "article", "auth_required": false, "meta": { "title": "$t:article.meta_title" } },
+    { "path": "/about", "layout": "about", "auth_required": false, "meta": { "title": "$t:meta.about_title" } }
+  ]
+}

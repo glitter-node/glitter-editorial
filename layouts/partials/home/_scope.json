@@ -1,0 +1,62 @@
+{
+    "meta": {
+        "is_partial": true
+    },
+    "type": "basic",
+    "name": "Section",
+    "props": {
+        "className": "editorial-section scope-section"
+    },
+    "children": [
+        {
+            "type": "basic",
+            "name": "Div",
+            "props": {
+                "className": "scope-heading"
+            },
+            "children": [
+                {
+                    "type": "basic",
+                    "name": "P",
+                    "props": {
+                        "text": "$t:home.scope.label",
+                        "className": "section-label"
+                    }
+                },
+                {
+                    "type": "basic",
+                    "name": "H2",
+                    "props": {
+                        "text": "$t:home.scope.title",
+                        "className": "section-title"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "basic",
+            "name": "Div",
+            "props": {
+                "className": "scope-copy"
+            },
+            "children": [
+                {
+                    "type": "basic",
+                    "name": "P",
+                    "props": {
+                        "text": "$t:home.scope.body",
+                        "className": "reading-measure"
+                    }
+                },
+                {
+                    "type": "basic",
+                    "name": "P",
+                    "props": {
+                        "text": "$t:home.scope.types",
+                        "className": "scope-types"
+                    }
+                }
+            ]
+        }
+    ]
+}

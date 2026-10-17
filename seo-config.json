@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "Glitter Editorial SEO rendering map",
+  "text_props": ["text"],
+  "attr_map": { "className": "class", "ariaLabel": "aria-label" },
+  "allowed_attrs": ["class", "href", "aria-label"],
+  "stylesheets": [],
+  "self_closing": [],
+  "component_map": {
+    "A": { "tag": "a" }, "Div": { "tag": "div" }, "Footer": { "tag": "footer" },
+    "H1": { "tag": "h1" }, "H2": { "tag": "h2" }, "Header": { "tag": "header" }, "Img": { "tag": "img" },
+    "Nav": { "tag": "nav" }, "P": { "tag": "p" }, "Section": { "tag": "section" }, "Span": { "tag": "span" }
+  }
+}

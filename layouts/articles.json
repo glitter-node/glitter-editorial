@@ -1,0 +1,63 @@
+{
+  "version": "0.1.0-beta.12",
+  "layout_name": "articles",
+  "permissions": [],
+  "extends": "_user_base",
+  "meta": {
+    "seo": {
+      "enabled": true,
+      "data_sources": [],
+      "priority": 0.8,
+      "changefreq": "weekly",
+      "og": {
+        "type": "website",
+        "title": "$t:articles.meta_title",
+        "description": "$t:articles.meta_description"
+      }
+    }
+  },
+  "data_sources": [],
+  "slots": {
+    "content": [
+      {
+        "type": "basic",
+        "name": "Div",
+        "props": { "className": "page articles-page shell-width" },
+        "children": [
+          {
+            "type": "basic",
+            "name": "Section",
+            "props": { "className": "hero articles-intro" },
+            "children": [
+              { "type": "basic", "name": "P", "props": { "text": "$t:articles.intro.eyebrow", "className": "eyebrow" } },
+              { "type": "basic", "name": "H1", "props": { "text": "$t:articles.intro.title", "className": "display-title" } },
+              { "type": "basic", "name": "P", "props": { "text": "$t:articles.intro.description", "className": "lede" } }
+            ]
+          },
+          {
+            "type": "composite",
+            "name": "EditorialArchive",
+            "props": {
+              "labelText": "$t:articles.feed.eyebrow",
+              "titleText": "$t:articles.feed.title",
+              "allText": "$t:articles.filter.all",
+              "sectionsLabelText": "$t:articles.filter.label",
+              "previousText": "$t:articles.pagination.previous",
+              "nextText": "$t:articles.pagination.next",
+              "paginationLabelText": "$t:articles.pagination.label",
+              "emptyTitleText": "$t:articles.empty.title",
+              "emptyBodyText": "$t:articles.empty.body",
+              "searchLabelText": "$t:articles.search.label",
+              "searchSubmitText": "$t:articles.search.submit",
+              "searchResultsPrefixText": "$t:articles.search.results_prefix",
+              "searchResultsSuffixText": "$t:articles.search.results_suffix",
+              "searchEmptyTitleText": "$t:articles.search.empty_title",
+              "searchEmptyBodyText": "$t:articles.search.empty_body",
+              "pageSize": 10
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

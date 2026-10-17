@@ -1,0 +1,105 @@
+{
+  "nav": { "label": "Primary navigation", "home": "Home", "articles": "Articles", "about": "About" },
+  "common": { "brand": "Glitter Editorial" },
+  "home": {
+    "lead": {
+      "label": "INDEPENDENT EDITORIAL",
+      "title": "Stories worth reading, presented with clarity.",
+      "introduction": "A considered publication space for independent articles and editorial stories, designed to keep readers close to what matters."
+    },
+    "featured": { "label": "FEATURED", "read": "Read article →" },
+    "latest": { "label": "LATEST STORIES", "title": "Newly published stories", "all": "View all articles →" },
+    "sections": { "label": "SECTION INDEX", "title": "Explore by Section", "nav_label": "Explore article sections" },
+    "principles": {
+      "label": "EDITORIAL PRINCIPLES", "title": "Three principles for meaningful reading",
+      "clarity_title": "Clarity", "clarity_body": "We present complex subjects through precise language and a deliberate flow.",
+      "context_title": "Context", "context_body": "We look beyond the moment to understand the background and meaning of each story.",
+      "perspective_title": "Perspective", "perspective_body": "We bring fresh questions to familiar scenes and make room for broader thought."
+    },
+    "popular": { "label": "EDITOR'S SELECTION", "title": "Most Read" },
+    "scope": {
+      "label": "OUR EDITORIAL SCOPE",
+      "title": "The stories we publish",
+      "body": "Through carefully shaped articles and editorial stories, we value the substance of each story over labels or format.",
+      "types": "ARTICLES · EDITORIAL STORIES · INDEPENDENT PUBLISHING"
+    },
+    "empty": {
+      "title": "The first stories are being prepared.",
+      "body": "We are taking the time to observe carefully and shape an opening edition made to last."
+    },
+    "closing": { "label": "EDITORIAL NOTE", "statement": "A good story leaves time for thought long after the reading ends." }
+  },
+  "about": {
+    "eyebrow": "ABOUT THE PUBLICATION",
+    "title": "A place where every story can be fully read.",
+    "introduction": "Glitter Editorial expresses a publishing format that values depth over speed and the rhythm of reading over decoration.",
+    "purpose_title": "Editorial Purpose",
+    "purpose_body": "Clear hierarchy and generous reading space guide readers naturally from headline to text and from facts to context.",
+    "principles_title": "Our Principles",
+    "principles_body": "Clear language, sufficient context, and independent perspective give every story the weight and pace it deserves.",
+    "publish_title": "What We Publish",
+    "publish_body": "Articles and editorial stories come together as one coherent publication experience.",
+    "closing": "Every page stays behind the content and works to preserve the reader's attention."
+  },
+  "articles": {
+    "meta_title": "Articles · Glitter Editorial",
+    "meta_description": "Read the latest articles and stories published by Glitter Editorial.",
+    "intro": {
+      "eyebrow": "THE PUBLICATION",
+      "title": "Articles",
+      "description": "Reporting, essays, and considered perspectives gathered in one quiet reading sequence."
+    },
+    "feed": {
+      "eyebrow": "LATEST PUBLICATION",
+      "title": "Published stories"
+    },
+    "filter": { "label": "Article sections", "all": "All" },
+    "search": { "label": "Search stories", "submit": "Search", "results_prefix": "Search results for ", "results_suffix": "", "empty_title": "No stories match this search.", "empty_body": "Try another phrase or return to all published stories." },
+    "pagination": { "label": "Article pages", "previous": "Previous", "next": "Next" },
+    "empty": {
+      "title": "No stories have been published yet.",
+      "body": "The first edition is taking shape with care. New writing will appear here when it is ready."
+    }
+  },
+  "article": {
+    "meta_title": "Article · Glitter Editorial",
+    "meta_description": "Read an article published by Glitter Editorial.",
+    "loading": "The story is opening.",
+    "invalid": {
+      "title": "This story address is not valid.",
+      "body": "Return to the publication to continue reading."
+    },
+    "unavailable": {
+      "title": "This story is not available to read.",
+      "body": "It may not be part of the current edition. Other published stories remain available."
+    },
+    "forbidden": {
+      "title": "This story cannot be accessed.",
+      "body": "It is not currently public or you do not have permission to read it."
+    },
+    "not_found": {
+      "title": "This story could not be found.",
+      "body": "It may have moved or may no longer be published."
+    },
+    "back": "Back to Articles",
+    "previous": "Previous story",
+    "next": "Next story"
+  },
+  "errors": {
+    "home_action": "Return home",
+    "403": { "code": "403", "title": "This page cannot be opened.", "description": "This page is not currently available to you. Return to the published stories to continue reading." },
+    "404": { "code": "404", "title": "The page could not be found.", "description": "The address may have changed, or the page may no longer be published." },
+    "500": { "code": "500", "title": "The page could not be loaded.", "description": "Try again shortly, or return home to explore another story." }
+  },
+  "footer": {
+    "nav_label": "Footer navigation",
+    "statement": "An independent publication space for stories worth reading.",
+    "copyright": "© Glitter.kr. All rights reserved."
+  },
+  "meta": {
+    "home_title": "Glitter Editorial",
+    "home_description": "A reading-first publication for independent articles and editorial stories.",
+    "about_title": "About · Glitter Editorial",
+    "about_description": "A publication experience shaped by clarity, context, and perspective."
+  }
+}

@@ -1,0 +1,36 @@
+{
+    "meta": {
+        "is_partial": true
+    },
+    "type": "basic",
+    "name": "Section",
+    "props": {
+        "className": "hero"
+    },
+    "children": [
+        {
+            "type": "basic",
+            "name": "P",
+            "props": {
+                "text": "$t:home.lead.label",
+                "className": "eyebrow"
+            }
+        },
+        {
+            "type": "basic",
+            "name": "H1",
+            "props": {
+                "text": "$t:home.lead.title",
+                "className": "display-title"
+            }
+        },
+        {
+            "type": "basic",
+            "name": "P",
+            "props": {
+                "text": "$t:home.lead.introduction",
+                "className": "lede"
+            }
+        }
+    ]
+}

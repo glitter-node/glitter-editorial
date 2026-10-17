@@ -1,0 +1,109 @@
+{
+    "meta": {
+        "is_partial": true
+    },
+    "type": "basic",
+    "name": "Section",
+    "props": {
+        "className": "editorial-section principles-section"
+    },
+    "children": [
+        {
+            "type": "basic",
+            "name": "P",
+            "props": {
+                "text": "$t:home.principles.label",
+                "className": "section-label"
+            }
+        },
+        {
+            "type": "basic",
+            "name": "H2",
+            "props": {
+                "text": "$t:home.principles.title",
+                "className": "section-title"
+            }
+        },
+        {
+            "type": "basic",
+            "name": "Div",
+            "props": {
+                "className": "principles-grid"
+            },
+            "children": [
+                {
+                    "type": "basic",
+                    "name": "Div",
+                    "props": {
+                        "className": "principle"
+                    },
+                    "children": [
+                        {
+                            "type": "basic",
+                            "name": "P",
+                            "props": {
+                                "text": "$t:home.principles.clarity_title",
+                                "className": "item-title"
+                            }
+                        },
+                        {
+                            "type": "basic",
+                            "name": "P",
+                            "props": {
+                                "text": "$t:home.principles.clarity_body"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "name": "Div",
+                    "props": {
+                        "className": "principle"
+                    },
+                    "children": [
+                        {
+                            "type": "basic",
+                            "name": "P",
+                            "props": {
+                                "text": "$t:home.principles.context_title",
+                                "className": "item-title"
+                            }
+                        },
+                        {
+                            "type": "basic",
+                            "name": "P",
+                            "props": {
+                                "text": "$t:home.principles.context_body"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "name": "Div",
+                    "props": {
+                        "className": "principle"
+                    },
+                    "children": [
+                        {
+                            "type": "basic",
+                            "name": "P",
+                            "props": {
+                                "text": "$t:home.principles.perspective_title",
+                                "className": "item-title"
+                            }
+                        },
+                        {
+                            "type": "basic",
+                            "name": "P",
+                            "props": {
+                                "text": "$t:home.principles.perspective_body"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
